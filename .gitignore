@@ -1,0 +1,29 @@
+target/
+.mvn/wrapper/maven-wrapper.jar
+
+.classpath
+.project
+.settings/
+.springBeans
+.sts4-cache
+.apt_generated/
+
+.idea/
+*.iml
+*.iws
+*.ipr
+
+.vscode/
+
+.DS_Store
+*.log
+
+# Local configuration and secrets
+src/main/resources/application-local.properties
+.env
+.env.*
+!.env.example
+
+# Build output
+build/
+dist/
